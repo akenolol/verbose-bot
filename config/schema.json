@@ -1,0 +1,96 @@
+{
+    "type": "object",
+    "properties": {
+        "appName": {
+            "type": "string",
+            "description": "The name of the app as it will appear in the app directory"
+        },
+        "appRepo": {
+            "type": "string",
+            "description": "The URL of the git repository for the app"
+        },
+        "appVersion": {
+            "type": "string",
+            "description": "The version of the app as it will appear in the app directory"
+        },
+        "description": {
+            "type": "string",
+            "description": "A short description of the app as it will appear in the app directory"
+        },
+        "authors": {
+            "type": "object",
+            "description": "A list of authors of the app as it will appear in the app directory",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the author"
+                    },
+                    "role": {
+                        "type": "string",
+                        "description": "The role of the author"
+                    },
+                    "url": {
+                        "type": "string",
+                        "description": "The URL of the author"
+                    }
+                }
+            }
+        },
+
+        "client": {
+            "type": "object",
+            "description": "The client object contains information about the client that the app will be running on",
+            "additionalProperties": {
+                "type": "string",
+                "properties": {
+                    "organization": {
+                        "type": "string",
+                        "description": "The organization that the app will be running on"
+                    },
+                    "repository": {
+                        "type": "string",
+                        "description": "The repository that the app will be running on"
+                    },
+                    "branch": {
+                        "type": "string",
+                        "description": "The branch that the app will be running on"
+                    },
+                    "loggingChannel": {
+                        "type": "string",
+                        "description": "The channel that the app will be logging to"
+                    }
+                }
+            }
+        },
+        
+        "license": {
+            "type": "string",
+            "description": "The license of the app as it will appear in the app directory"
+        },
+        "main": {
+            "type": "string",
+            "description": "The entry point of the app"
+        },
+        "scripts": {
+            "type": "object",
+            "description": "A list of scripts to run",
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "appPermissions": {
+            "type": "string",
+            "description": "The permissions the app requires"
+        },
+        "canReadUserPresence": {
+            "type": "boolean",
+            "description": "Whether the app can read user presence"
+        },
+        "minimumAgentVersion": {
+            "type": "string",
+            "description": "The minimum agent version required to run the app"
+        }
+    }
+}

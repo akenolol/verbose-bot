@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <appName role="string">Verbose Bot</appName>
+  <appRepo role="string">https://github.com/akenolol/verbose-bot</appRepo>
+  <appVersion role="string">1.0</appVersion>
+  <description role="string">This is a simple bot that logs, updates to a channel</description>
+  <authors role="object">
+    <1 role="object">
+      <name role="string">akeno#1010</name>
+      <role role="string">Developer, Maintainer</role>
+      <url role="string">https://github.com/akeneolol</url>
+    </1>
+    <2 role="object">
+      <name role="string">Furdox#0993</name>
+      <role role="string">Contributor</role>
+      <url role="string">https://github.com/Furdox</url>
+    </2>
+  </authors>
+  <client role="object">
+    <organization role="string">akeneolol</organization>
+    <repository role="string">verbose-bot</repository>
+    <branch role="string">main</branch>
+    <loggingChannel role="string">981632133191843852</loggingChannel>
+  </client>
+  <license role="string">MIT</license>
+  <main role="string">index.js</main>
+  <scripts role="object">
+    <start role="string">node index.js</start>
+    <test role="string">echo &quot;Error: no test specified&quot; &amp;&amp; exit 1</test>
+    <dev role="string">nodemon index.js</dev>
+  </scripts>
+  <appPermissions role="int">4395899023319</appPermissions>
+  <canReadUserPresence role="boolean">true</canReadUserPresence>
+  <minimumAgentVersion role="string">2.126.0</minimumAgentVersion>
+  <schema role="string">./config/schema.json</schema>
+  </root>

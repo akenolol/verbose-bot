@@ -1,0 +1,36 @@
+{
+    "appName": "Verbose Bot",
+    "appRepo": "https://github.com/akenolol/verbose-bot",
+    "appVersion": "1.0",
+    "description": "This is a simple bot that logs, updates to a channel",
+
+    "authors": {
+        "1": {
+            "name": "akeno#1010",
+            "role": "Developer, Maintainer",
+            "url": "https://github.com/akeneolol"
+        },
+        "2": {
+            "name": "Furdox#0993",
+            "role": "Contributor",
+            "url": "https://github.com/Furdox"
+        }
+    },
+    "client": {
+        "organization": "akeneolol",
+        "repository": "verbose-bot",
+        "branch": "main",
+        "loggingChannel": "981632133191843852"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
+    "appPermissions": "4395899023319",
+    "canReadUserPresence": true,
+    "minimumAgentVersion": "2.126.0",
+    "$schema": "./schema.json"
+}
