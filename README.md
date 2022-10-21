@@ -3,7 +3,7 @@
 
 A Simple Discord Bot to Log Events in [NodeJs](https://nodejs.org/) and [Discord.Js](https://discord.js.org/)
 
-![Logo](./.github/Images/Logo.png)
+![Logo](https://cdn.discordapp.com/attachments/981632133191843852/1033077452479676426/Logo.png)
 
 
 ## Acknowledgements
