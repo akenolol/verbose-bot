@@ -17,7 +17,7 @@ for (const file of eventFiles) {
     }
 }
 
-const loggingChannel = "981632133191843852";
+const loggingChannel = "1026171856094515209";
 
 
 client.on("channelCreate", async (channel) => {
