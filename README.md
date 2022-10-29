@@ -26,7 +26,7 @@ To run this project, you will need to add the following environment variables to
 
 ## Support
 
-For support, email [owner@akenodev.xyz](mailto:owner@akenodev.xyz) or join our [Discord Server](https://akenodev.xyz/redirect?url=https://akenodev.xyz/invite).
+For support, email [oss@akenodev.xyz](mailto:oss@akenodev.xyz) or join our [Discord Server](https://akenodev.xyz/redirect?url=https://akenodev.xyz/invite).
 
 
 ## Run Locally
